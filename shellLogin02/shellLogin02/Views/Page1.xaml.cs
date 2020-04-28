@@ -20,6 +20,7 @@ namespace shellLogin02.Views
         private async void Button_Clicked(object sender, EventArgs e)
         {
             await Xamarin.Essentials.SecureStorage.SetAsync("isLogged", "1");
+            await Shell.Current.GoToAsync("//login");
 
         }
     }

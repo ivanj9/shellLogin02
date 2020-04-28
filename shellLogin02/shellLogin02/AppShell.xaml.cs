@@ -13,7 +13,7 @@ namespace shellLogin02
             InitializeComponent();
 
             //Routing.RegisterRoute("registration", typeof(RegistrationPage));
-            Routing.RegisterRoute("main/login", typeof(LoginPage));
+            //Routing.RegisterRoute("login", typeof(LoginPage));
 
         }
     }
